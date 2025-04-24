@@ -1,6 +1,6 @@
 # SpendSmart
 
-A simple personal finance application built with ASP.NET MVC, designed to help users manage their expenses and budget efficiently.
+A simple personal finance application built with ASP.NET MVC, designed to help users manage their expenses efficiently.
 
 ---
 
@@ -22,7 +22,6 @@ Add Expense: Track new expenses by entering amount, category, and date.
 
 View Expenses: See a list of your tracked expenses, filter by date or category.
 
-Budget Settings: Set a monthly budget and track how your expenses compare.
 
 
 ## **Project Structure:**
