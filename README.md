@@ -14,23 +14,6 @@ A simple personal finance application built with ASP.NET MVC, designed to help u
 
 ---
 
-## ⚙️ **Installation & Setup:**
-
-To get this project up and running on your local machine, follow these steps:
-
-1. **Clone the Repository:**
-   git clone https://github.com/ROGException/SpendSmart.git
-   
-3. **Navigate to the Project Directory:**
-   cd SpendSmart
-
-4. **Restore NuGet Packages: In your terminal or Visual Studio, restore the necessary dependencies::**
-   dotnet restore
-
-5. **Run the Application: To start the application:**
-   dotnet run
-
-
 ## **Usage:**
 
 Home Page: View an overview of your expenses and budget.
@@ -46,12 +29,26 @@ Budget Settings: Set a monthly budget and track how your expenses compare.
 
 Controllers: Contains the logic for handling user requests and responses.
 
-Models: Defines the data structures for the application (e.g., Expense, Budget).
+Models: Defines the data structures for the application (e.g., Expense).
 
 Views: Contains the HTML templates for rendering the UI.
 
 wwwroot: Contains static files (CSS, JavaScript, images).
 
 appsettings.json: Configuration file for the application (no database configuration needed for In-Memory).
+
+
+## Running the Application
+
+After cloning the repository, follow these steps to run the app locally:
+
+1. **Install dependencies**: If you're using PowerShell, run the `setup.ps1` script located in the root of the project. This script will clone the repository (if it hasn’t been cloned already), clean, restore, and rebuild the project.
+
+2. **Run the application**:
+   Once the app has been successfully built, it will be hosted locally. You can check the exact URL by looking at the terminal output after running the app. The log will display something like: Now listening on: http://localhost:5000.
+
+
+   
+
 
 
